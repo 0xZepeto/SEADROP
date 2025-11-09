@@ -1,0 +1,14 @@
+{
+  "name": "Seadrop",
+  "version": "1.0.0",
+  "description": "Mint Seadrop",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
