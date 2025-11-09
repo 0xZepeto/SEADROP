@@ -91,9 +91,9 @@ const ALLOWED = (process.env.TELEGRAM_ALLOWED_USER_IDS || "")
   .split(",").map(s => s.trim()).filter(Boolean);
 
 /* ========= Branding ========= */
-const BRAND_ADMIN_HANDLE = envStr("BRAND_ADMIN_HANDLE", "@nolxnode");
-const BRAND_CHANNEL_NAME  = envStr("BRAND_CHANNEL_NAME", "Airdrop Node");
-const BRAND_CHANNEL_URL   = envStr("BRAND_CHANNEL_URL", "https://t.me/airdrop_node");
+const BRAND_ADMIN_HANDLE = envStr("BRAND_ADMIN_HANDLE", "@RizalBee");
+const BRAND_CHANNEL_NAME  = envStr("BRAND_CHANNEL_NAME", "NFT HUNTER");
+const BRAND_CHANNEL_URL   = envStr("BRAND_CHANNEL_URL", "NO CHANNELS");
 
 /* ========= Console Banner ========= */
 function showBanner() {
