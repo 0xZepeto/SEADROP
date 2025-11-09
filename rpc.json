@@ -1,1 +1,9 @@
-
+{
+  "mainnet": "https://eth.public-rpc.com",
+  "base": "https://mainnet.base.org",
+  "avalanche": "https://api.avax.network/ext/bc/C/rpc",
+  "optimism": "https://mainnet.optimism.io",
+  "apechain": "https://rpc.apechain.com",
+  "arbitrum": "https://arb1.arbitrum.io/rpc",
+  "polygon": "https://polygon-rpc.com"
+}
