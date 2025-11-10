@@ -1,9 +1,29 @@
-{
-  "mainnet": "https://eth.public-rpc.com",
-  "base": "https://mainnet.base.org",
-  "avalanche": "https://api.avax.network/ext/bc/C/rpc",
-  "optimism": "https://mainnet.optimism.io",
-  "apechain": "https://rpc.apechain.com",
-  "arbitrum": "https://arb1.arbitrum.io/rpc",
-  "polygon": "https://polygon-rpc.com"
-}
+[
+  {
+    "name": "BASE",
+    "rpcUrl": "https://mainnet.base.org",
+    "chainId": 8453,
+    "symbol": "ETH",
+    "explorer": "https://basescan.org"
+  },
+  {
+    "name": "ETH",
+    "rpcUrl": "https://eth.public-rpc.com",
+    "chainId": 1,
+    "symbol": "ETH",
+    "explorer": "https://etherscan.io"
+  },
+  {
+    "name": "POL",
+    "rpcUrl": "https://polygon-rpc.com",
+    "chainId": 137,
+    "symbol": "POL",
+    "explorer": "https://polygonscan.com"
+  },
+  {
+    "name": "APE",
+    "rpcUrl": "https://rpc.apechain.com",
+    "chainId": 33139,
+    "symbol": "APE",
+    "explorer": "https://apescan.io"
+  }
